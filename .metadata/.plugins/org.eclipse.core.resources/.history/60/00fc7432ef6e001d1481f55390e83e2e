@@ -1,0 +1,19 @@
+package com.example.demo.test;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		StringBuilder str  = new StringBuilder("position no. Manoj is This");
+		str = str.reverse();
+				
+		
+		
+		System.out.println(str);
+		
+
+	}
+
+}

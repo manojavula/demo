@@ -1,0 +1,23 @@
+package com.example.demo.test;
+
+public class Test {
+	static StringBuilder str  = new StringBuilder("position no. Manoj is This");
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+				
+		str = str.reverse();
+				
+		swap(str);
+		
+		
+		
+
+	}
+	
+	public static void swap(StringBuilder str) {
+		
+		System.out.println(str);
+	}
+
+}

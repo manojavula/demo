@@ -1,0 +1,27 @@
+package com.example.demo.test;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Test {
+	static StringBuilder str  = new StringBuilder("position no. 1 Manoj is This");
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		swap(str);		
+		
+	}
+	
+	public static void  swap(StringBuilder str) {
+		List<String> list = Arrays.asList(str.toString().split(" "));
+		//
+		StringBuilder revStr  = new StringBuilder();
+		for(int i = list.size()-1; i>=0; i--) {
+			//System.out.println(str.append(list.get(i)+" " ));
+			
+			revStr = str.append(list.get(i)+" " );
+		}
+		System.out.println(revStr);
+	}
+
+}
